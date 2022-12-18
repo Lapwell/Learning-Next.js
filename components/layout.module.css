@@ -1,0 +1,12 @@
+/*
+@author    : lapwell ||
+@file      : layout.module ||
+@created   : Saturday Dec 17, 2022 19:04:30 PST ||
+*/
+
+.container {
+    max-width: 40rem;
+    padding: 0 1rem;
+    margin: 3rem auto 6rem;
+}
+
