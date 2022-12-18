@@ -21,33 +21,27 @@ export default function Home() {
         </p>
 
         <div className={styles.grid}>
-          <a target="_blank" href="https://www.youtube.com/@okokok_1031/videos" className={styles.card}>
+          <Link href="/music/musicList" className={styles.card}>
             <h3>Slapping Music &rarr;</h3>
             <p>
-                Click for some tune links.
+                Click for some good shit.
             </p>
+          </Link>
+
+          <a target='_blank' href="https://github.com/Lapwell?tab=repositories" className={styles.card}>
+            <h3>Github&rarr;</h3>
+            <p>TO THE GITHUB!</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a target='_blank' href="" className={styles.card}>
             <h3> &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+            <p></p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
-            <h3>Moon's &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
+          <a target='_blank' href="" className={styles.card}>
             <h3>Cheeki Breeki&rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              
             </p>
           </a>
         </div>
